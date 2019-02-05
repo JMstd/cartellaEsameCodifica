@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "myTEI.dtd">
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0" 
+                        xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- teiHeader del teiCorpus con la lista persone, luoghi, organizzazioni-->
+
+   <xi:include xpointer="list" href="list.xml">
+         <xi:fallback>risorsa lista mancante</xi:fallback>
+    </xi:include>
+        
+<!-- CARTOLINA 064 -->
+
+    <xi:include xpointer="c7694-064" href="Cartolina1.xml">
+         <xi:fallback>risorsa cartolina 1 mancante</xi:fallback>
+    </xi:include>
+        
+<!-- CARTOLINA 092 -->
+ 
+    <xi:include xpointer="c7694-092" href="Cartolina2.xml">
+        <xi:fallback>risorsa cartolina 2 mancante</xi:fallback>
+    </xi:include>
+
+<!-- CARTOLINA 175 -->
+
+    <xi:include xpointer="c7694-175" href="Cartolina3.xml">
+        <xi:fallback>risorsa cartolina 3 mancante</xi:fallback>
+    </xi:include>
+
+    
+</teiCorpus>

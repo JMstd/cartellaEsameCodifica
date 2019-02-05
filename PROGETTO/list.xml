@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="list"> 
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ita">Lista codificata delle persone, dei luoghi e delle organizzazioni presenti nelle cartoline</title>
+<!--  LISTA RESPONSABILI -->
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <persName ref="#ALS">Alessandra La Spina</persName>
+                    <persName ref="#JM">Jurgen Memaj</persName>
+                    <persName ref="#LR">Letizia Ricci</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune">Comune di
+						<placeName ref="list.xml#SP">La Spezia</placeName>
+					</name>
+				</respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date when="2018-12"> Dicembre 2018 </date>
+                </edition>
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <persName ref="#ALS">Alessandra La Spina</persName>
+                    <persName ref="#JM">Jurgen Memaj</persName>
+                    <persName ref="#LR">Letizia Ricci</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatori:</resp>
+                    <persName ref="#TC"> Tommaso Castagneto</persName>
+                    <persName ref="#ALS">Alessandra La Spina</persName>
+                    <persName ref="#JM">Jurgen Memaj</persName>
+                    <persName ref="#LR">Letizia Ricci</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <persName ref="#GP">Giacomo Paolicchi</persName>
+                    <persName ref="#ES">Enrica Salvatori</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <persName ref="#ER">E. Ratti</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di 
+                            <placeName ref="#PI">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="#PI">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>
+                    <choice>
+                        <abbr>LabCD</abbr>
+                        <expan>Laboratorio di Cultura Digitale</expan>
+                    </choice>
+                </distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine><placeName ref="#PI">Pisa</placeName></addrLine>
+                </address>
+            </publicationStmt>  
+            <sourceDesc>
+<!--  LISTA PERSONE  -->
+                <listPerson>
+                    <person xml:id="ALS" >
+                        <persName>
+                            <forename>Alessandra</forename>
+                            <surname>La Spina</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <occupation>Trascrittore</occupation>   <!-- occupation !!! -->
+                    </person>
+                    <person xml:id="JM" >
+                        <persName>
+                            <forename>Jurgen</forename>
+                            <surname>Memaj</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Trascrittore</occupation>
+                    </person>
+                    <person xml:id="LR" >
+                        <persName>
+                            <forename>Letizia</forename>
+                            <surname>Ricci</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <occupation>Trascrittore</occupation>
+                    </person>
+                    <person xml:id="TC" >
+                        <persName>
+                            <forename>Tommaso</forename>
+                            <surname>Castagneto</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Compilatore</occupation>
+                    </person>
+                    <person xml:id="GP" >
+                        <persName>
+                            <forename>Giacomo</forename>
+                            <surname>Paolicchi</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Responsabile scientifico della cartolina</occupation>
+                    </person>
+                    <person xml:id="ES" >
+                        <persName>
+                            <forename>Enrica</forename>
+                            <surname>Salvatori</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <occupation>Responsabile scientifico della cartolina</occupation>
+                    </person>
+                    <person xml:id="ER" >
+                        <persName>
+                            <forename><abbr>E.</abbr></forename>
+                            <surname>Ratti</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <occupation>Funzionario responsabile</occupation>
+                    </person>
+                    <!-- persone interne alle cartoline -->
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                        </persName>
+                        <sex>M</sex>
+                        <note> Non si hanno informazioni sul cognome </note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note> Destinataria </note>
+                    </person>
+					<person xml:id="C">
+						<persName>
+							<forename>Carolina</forename>
+						</persName>
+						<sex>F</sex>
+                        <note> Non si hanno informazioni sul cognome </note>
+					</person>	
+					<person xml:id="CB">
+						<persName>
+							<surname>Cibecchini</surname>
+						</persName>
+						<sex>M</sex>
+                        <note> Non si hanno informazioni sul nome </note>
+					</person>	
+					<person xml:id="AN">
+						<persName>
+							<forename><abbr>A.</abbr></forename>
+							<surname>Noyer</surname>
+						</persName>
+						<note>Copyright della cartolina</note>
+					</person>
+					<person xml:id="DM">
+						<persName>
+							<forename><abbr>D.</abbr></forename>
+							<surname>Mastroiani</surname>
+							<note> Pittore dell'opera nella parte frontale della cartolina</note>
+						</persName>
+					</person>
+                    <person xml:id="Giov">
+                        <persName>
+                            <forename>Giovanni</forename>
+                        </persName>
+                        <sex>M</sex>
+                        <note> Non si hanno informazioni sul cognome e si firma con il diminutivo "Giovannino" </note>
+                    </person> 
+                    <person xml:id="Giova">
+						<persName>
+							<forename>Giovannetta</forename>
+						</persName>
+						<sex>F</sex>
+                        <note> Non si hanno informazioni sul cognome </note>
+					</person>
+                    <person xml:id="Anto">
+						<persName>
+							<forename>Antonietta</forename>
+						</persName>
+						<sex>F</sex>
+                        <note> Non si hanno informazioni sul cognome </note>
+					</person>
+                    <person xml:id="TCorb">
+                        <persName>
+                            <forename><abbr>T.</abbr></forename>
+                            <surname>Corbella</surname>
+                        </persName>
+                        <note> Pittore dell'opera nella parte frontale della cartolina </note>
+                    </person>   
+                </listPerson>
+<!--  LISTA LUOGHI  -->
+                <listPlace>
+                    <place xml:id="SP">
+                        <placeName>La Spezia</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">La Sezia</district>
+                        <district type="provincia">SP</district>
+                        <region type="state">Liguria</region>
+                        <country key="IT">IT</country>
+                    </place>
+                    <place xml:id="PI">
+                        <placeName>Pisa</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Pisa</district>
+                        <district type="provincia">Pi</district>
+                        <region type="state">Toscana</region>
+                        <country key="IT">IT</country>
+                    </place>
+                    <!--luoghi interni alle cartoline-->
+                    <place xml:id="P">
+                        <placeName>Parigi</placeName>
+                        <settlement type="località">città</settlement>
+                        <country key="FR">FR</country> <!--controllare key in country-->
+                        <note>Luogo di pubblicazione della cartolina 65 </note>
+                    </place>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <region type="state">Emilia-Romagna</region>
+                        <country key="IT">IT</country>
+                    </place>
+                    <place xml:id="LM" >
+                        <placeName type="lago">Lago Maggiore</placeName>
+                        <country key="IT" >Italia</country>
+                        <country key="CH" >Svizzera</country>
+                    </place>
+                    <place xml:id="AR">
+                        <placeName>Arona</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Novara</district>
+                        <district type="provincia">NO</district>
+                        <region type="state">Piemonte</region>
+                        <country key="IT">IT</country>
+                        <note>Città nei pressi del Lago Maggiore</note>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <region type="state">Emilia-Romagna</region>
+                        <country key="IT">IT</country>
+                    </place>
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <region type="state">Lombardia</region>
+                        <country key="IT">IT</country>
+                    </place>
+                </listPlace>
+<!--  LISTA ORGANIZZAZIONI-->
+                <listOrg>
+                    <org xml:id="LCD">
+                         <orgName>
+					    	<choice>
+                        	    <abbr>LabCD</abbr>
+                         	    <expan>Laboratorio di Cultura Digitale</expan>
+                   	    	 </choice>
+                          <placeName ref="#PI">Pisa</placeName>    
+					    </orgName>
+                    </org> 
+                    <!--organizzazioni interne alle cartoline -->
+                    <org xml:id="URS1">
+                        <orgName>
+                          <choice>
+                                <abbr>Uff.</abbr>
+                                <expan>Uff<ex>icio</ex></expan>
+                            </choice> 
+                            <choice>
+                                <abbr>Rev.</abbr>
+                                <expan>Rev<ex>isioni</ex></expan>
+                            </choice> Stampa  
+                            <choice>
+                                  <abbr>N.</abbr>
+                                 <expan>N<ex>umero</ex></expan>
+                            </choice> 737 -  
+                            <placeName ref="#MI">Milano</placeName> 
+                            <date when="1917-05-08">8-5-1917</date> 
+                        </orgName> 
+                    </org> 
+                    <org xml:id="URS2">
+                        <orgName>
+                            <choice>
+                                <abbr>Uff.</abbr>
+                                <expan>Uff<ex>icio</ex></expan>
+                            </choice> 
+                            <choice>
+                                <abbr>Rev.</abbr>
+                                <expan>Rev<ex>isioni</ex></expan>
+                            </choice> Stampa
+                            <placeName ref="#MI">Milano</placeName>,<date when="1917-07-10">10-7-17</date>.
+                            <choice>
+                                <abbr>N.</abbr>
+                                <expan>N<ex>umero</ex></expan>
+                            </choice> 1482     
+                        </orgName>  
+                    </org>       
+                </listOrg>  
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Questo è un template TEI header contenente dati relativi a luoghi, persone e organizzazioni delle cartoline codificate.</p>
+        </body>
+    </text>
+</TEI>

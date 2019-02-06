@@ -11,7 +11,7 @@
                 <title xml:lang="ita">Lista codificata delle persone, dei luoghi e delle organizzazioni presenti nelle cartoline</title>
 <!--  LISTA RESPONSABILI -->
                 <respStmt>
-                    <resp>Trascritto da<:/resp>
+                    <resp>Trascritto da:</resp>
                     <persName ref="#ALS">Alessandra La Spina</persName>
                     <persName ref="#JM">Jurgen Memaj</persName>
                     <persName ref="#LR">Letizia Ricci</persName>
@@ -30,6 +30,9 @@
                 <respStmt>
                     <resp>Compilatore:</resp>
                     <persName ref="#TC"> Tommaso Castagneto</persName>
+					<persName ref="#ALS">Alessandra La Spina</persName>
+                    <persName ref="#JM">Jurgen Memaj</persName>
+                    <persName ref="#LR">Letizia Ricci</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Responsabile scientifico:</resp>
@@ -1164,7 +1167,7 @@
 					</availability>
                     <pubPlace ref="list.xml#MI">Milano</pubPlace>
                     <date when="1917-07-10">10-7-17</date>
-				</bi
+				</bibl>
 				
 				<msDesc> <!-- contiene la descrizione del manoscritto -->
 					<msIdentifier> <!-- informazioni che identificano il manoscritto -->
@@ -1244,8 +1247,9 @@
 			</langUsage>
 		</profileDesc>
 
-		<encodingDesc> <!-- scrivere quelache info sulla codifica che dite??-->
-			<p/>
+		<encodingDesc> <!-- descrizione della codifica -->
+			<p>Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+            normalizzando il tutto per la codifica. Validazione delle cartoline con con xmllint e creazione della dtd con tei Roma.</p>
 		</encodingDesc>					
 
 	</teiHeader>
